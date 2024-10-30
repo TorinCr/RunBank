@@ -1,0 +1,32 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Checking extends Account {
+   public Checking(double var1, int var3) {
+      super(var1, var3);
+   }
+
+   public void deposit(double var1) {
+      this.balance += var1;
+      System.out.println("Deposit of $" + var1 + " successful.");
+   }
+
+   public void withdraw(double var1) {
+      if (var1 <= this.balance) {
+         this.balance -= var1;
+         System.out.println("Withdrawal of $" + var1 + " successful.");
+      } else {
+         System.out.println("Insufficient funds for withdrawal.");
+      }
+
+   }
+
+   public void transfer(Account var1, double var2) {
+      if (var2 <= this.balance) {
+         this.balance -= var2;
+         var1.deposit(var2);
+         System.out.println("Transfer of " + var2 + " successful.");
+      } else {
+         System.out.println("Insufficient funds for transfer.");
+      }
+
+   }
+}
