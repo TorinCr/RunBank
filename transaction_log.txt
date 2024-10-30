@@ -1,0 +1,90 @@
+Minh Dang made a balance inquiry on Savings-2069. Balance: $1691.78
+Minh Dang made a balance inquiry on Checking-1069. Balance: $623.42
+Minh Dang made a balance inquiry on Credit-3069. Balance: $-1966.94
+Daniel A made a balance inquiry on Checking-1078. Balance: $457.56
+Daniel A made a balance inquiry on Credit-3078. Balance: $213.07
+Daniel A made a balance inquiry on Savings-2078. Balance: $3364.79
+Daniel A deposited $400.0 to Checking-1078. New Balance: $857.56
+Daniel A made a balance inquiry on Checking-1078. Balance: $857.56
+Daniel A made a balance inquiry on Credit-3078. Balance: $213.07
+Daniel A made a balance inquiry on Savings-2078. Balance: $3364.79
+Daniel A transferred $200.0 from Checking-1078 to Credit-3078. Checking-1078 Balance: $657.56. Credit-3078 Balance: $413.07
+Daniel A paid Oscar Decena $300.0 from Checking-1078. New Balance: $357.55999999999995
+Oscar Decena received $300.0 from Daniel A. New Balance: $1750.22
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $456.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-141.39
+Goofy Disney withdrew $1000.0 from 3003New Balance: 
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $456.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-1141.3899999999999
+Goofy Disney withdrew $10000.0 from 3003New Balance: 
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $456.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-1141.3899999999999
+Alfonso Beltran made a balance inquiry on Savings-2038. Balance: $3447.36
+Alfonso Beltran made a balance inquiry on Checking-1038. Balance: $474.39
+Alfonso Beltran made a balance inquiry on Credit-3038. Balance: $-866.29
+Alfonso Beltran deposited $2000.0 to Credit-3038. New Balance: $1133.71
+Alfonso Beltran made a balance inquiry on Savings-2038. Balance: $3447.36
+Alfonso Beltran made a balance inquiry on Checking-1038. Balance: $474.39
+Alfonso Beltran made a balance inquiry on Credit-3038. Balance: $1133.71
+Alfonso Beltran paid Goofy Disney $40000.0 from Savings-2038. New Balance: $3447.36
+Goofy Disney received $40000.0 from Alfonso Beltran. New Balance: $456.69
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $456.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-1141.39
+Simba King made a balance inquiry on Savings-2023. Balance: $1684.46
+Simba King made a balance inquiry on Checking-1023. Balance: $1472.05
+Simba King made a balance inquiry on Credit-3023. Balance: $-1863.46
+Simba King made a balance inquiry on Savings-2023. Balance: $1684.46
+Simba King made a balance inquiry on Checking-1023. Balance: $1472.05
+Simba King made a balance inquiry on Credit-3023. Balance: $-1863.46
+Simba King transferred $20000.0 from Credit-3023 to Savings-2023. Credit-3023 Balance: $-1863.46. Savings-2023 Balance: $1684.46
+Simba King made a balance inquiry on Savings-2023. Balance: $1684.46
+Simba King made a balance inquiry on Checking-1023. Balance: $1472.05
+Simba King made a balance inquiry on Credit-3023. Balance: $-1863.46
+Jasmine Disney made a balance inquiry on Checking-1009. Balance: $633.94
+Jasmine Disney made a balance inquiry on Credit-3009. Balance: $-1797.38
+Jasmine Disney made a balance inquiry on Savings-2009. Balance: $1087.1
+Jasmine Disney withdrew $200.0 from 1009New Balance: 
+Jasmine Disney made a balance inquiry on Checking-1009. Balance: $433.94000000000005
+Jasmine Disney made a balance inquiry on Credit-3009. Balance: $-1797.38
+Jasmine Disney made a balance inquiry on Savings-2009. Balance: $1087.1
+Daniel A made a balance inquiry on Checking-1078. Balance: $357.56
+Daniel A made a balance inquiry on Credit-3078. Balance: $413.07
+Daniel A made a balance inquiry on Savings-2078. Balance: $3364.79
+Daniel A deposited $500.0 to Checking-1078. New Balance: $857.56
+Daniel A made a balance inquiry on Checking-1078. Balance: $857.56
+Daniel A made a balance inquiry on Credit-3078. Balance: $413.07
+Daniel A made a balance inquiry on Savings-2078. Balance: $3364.79
+Daniel A made a balance inquiry on Checking-1078. Balance: $857.56
+Daniel A made a balance inquiry on Credit-3078. Balance: $413.07
+Daniel A made a balance inquiry on Savings-2078. Balance: $3364.79
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $456.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-1141.39
+Goofy Disney withdrew $2.23882102E8 from 3003New Balance: 
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $456.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-1141.39
+Goofy Disney deposited $3891.0 to Checking-1003. New Balance: $4347.69
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $4347.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-1141.39
+Alex Avila made a balance inquiry on Savings-2037. Balance: $516.33
+Alex Avila made a balance inquiry on Checking-1037. Balance: $85.09
+Alex Avila made a balance inquiry on Credit-3037. Balance: $-1827.58
+Alex Avila deposited $6000.0 to Savings-2037. New Balance: $6516.33
+Alex Avila made a balance inquiry on Savings-2037. Balance: $6516.33
+Alex Avila made a balance inquiry on Checking-1037. Balance: $85.09
+Alex Avila made a balance inquiry on Credit-3037. Balance: $-1827.58
+Alex Avila withdrew $2000000.0 from 2037New Balance: 
+Daniel A made a balance inquiry on Checking-1078. Balance: $857.56
+Daniel A made a balance inquiry on Credit-3078. Balance: $413.07
+Daniel A made a balance inquiry on Savings-2078. Balance: $3364.79
+Goofy Disney made a balance inquiry on Savings-2003. Balance: $1884.26
+Goofy Disney made a balance inquiry on Checking-1003. Balance: $4347.69
+Goofy Disney made a balance inquiry on Credit-3003. Balance: $-1141.39
+Goofy Disney paid Laura Blanco $459.0 from Savings-2003. New Balance: $1425.26
+Laura Blanco received $459.0 from Goofy Disney. New Balance: $1965.74
