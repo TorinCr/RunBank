@@ -1,0 +1,138 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.io.PrintStream;
+import java.util.HashMap;
+import java.util.Iterator;
+
+class Customer extends Person {
+   private String id;
+   private String dob;
+   private String address;
+   private String phone;
+
+   public Customer(String var1) {
+      super(var1);
+      this.accounts = new HashMap();
+   }
+
+   public void setCustomerDetails(String var1, String var2, String var3, String var4) {
+      this.id = var1;
+      this.dob = var2;
+      this.address = var3;
+      this.phone = var4;
+   }
+
+   public String getId() {
+      return this.id;
+   }
+
+   public String getDob() {
+      return this.dob;
+   }
+
+   public String getAddress() {
+      return this.address;
+   }
+
+   public String getPhone() {
+      return this.phone;
+   }
+
+   public void displayAllAccounts() {
+      System.out.println("Accounts for " + this.getName() + ":");
+      Iterator var1 = this.accounts.values().iterator();
+
+      while(var1.hasNext()) {
+         Account var2 = (Account)var1.next();
+         String var10000 = this.getName();
+         String var3 = var10000 + " made a balance inquiry on " + this.getAccountType(var2) + "-" + var2.getAccountNumber() + ". Balance: $" + var2.getBalance();
+         PrintStream var4 = System.out;
+         int var10001 = var2.getAccountNumber();
+         var4.println("Account Number: " + var10001 + " | Balance: $" + var2.getBalance());
+         RunBank.logTransaction(var3);
+      }
+
+   }
+
+   private String getAccountType(Account var1) {
+      if (var1 instanceof Checking) {
+         return "Checking";
+      } else if (var1 instanceof Savings) {
+         return "Savings";
+      } else {
+         return var1 instanceof Credit ? "Credit" : "Account";
+      }
+   }
+
+   public void deposit(int var1, double var2) {
+      Account var4 = this.getAccount(var1);
+      if (var4 != null) {
+         var4.deposit(var2);
+         this.logTransaction("deposited", var4, var2);
+         RunBank.updateCustomerDataFile();
+      } else {
+         System.out.println("Account not found.");
+      }
+
+   }
+
+   public void withdraw(int var1, double var2) {
+      Account var4 = this.getAccount(var1);
+      if (var4 != null) {
+         var4.withdraw(var2);
+         String var5 = this.getName() + " withdrew $" + var2 + " from " + var1 + "New Balance: ";
+         RunBank.logTransaction(var5);
+         RunBank.updateCustomerDataFile();
+      } else {
+         System.out.println("Account not found.");
+      }
+
+   }
+
+   public void transfer(int var1, int var2, double var3) {
+      Account var5 = this.getAccount(var1);
+      Account var6 = this.getAccount(var2);
+      if (var5 != null && var6 != null) {
+         var5.transfer(var6, var3);
+         String var7 = this.getName() + " transferred $" + var3 + " from " + this.getAccountType(var5) + "-" + var1 + " to " + this.getAccountType(var6) + "-" + var2 + ". " + this.getAccountType(var5) + "-" + var1 + " Balance: $" + var5.getBalance() + ". " + this.getAccountType(var6) + "-" + var2 + " Balance: $" + var6.getBalance();
+         RunBank.logTransaction(var7);
+         RunBank.updateCustomerDataFile();
+      } else {
+         System.out.println("One or both accounts not found.");
+      }
+
+   }
+
+   public void payOther(Customer var1, int var2, int var3, double var4) {
+      Account var6 = this.getAccount(var2);
+      Account var7 = var1.getAccount(var3);
+      if (var6 != null && var7 != null) {
+         var6.transfer(var7, var4);
+         String var8 = this.getName() + " paid " + var1.getName() + " $" + var4 + " from " + this.getAccountType(var6) + "-" + var2 + ". New Balance: $" + var6.getBalance();
+         RunBank.logTransaction(var8);
+         String var9 = var1.getName() + " received $" + var4 + " from " + this.getName() + ". New Balance: $" + var7.getBalance();
+         RunBank.logTransaction(var9);
+         RunBank.updateCustomerDataFile();
+      } else {
+         System.out.println("One or both accounts not found.");
+      }
+
+   }
+
+   public void logTransaction(String var1, Account var2, double var3) {
+      String var5;
+      if (var1.equals("deposited")) {
+         var5 = this.getName() + " deposited $" + var3 + " to " + this.getAccountType(var2) + "-" + var2.getAccountNumber() + ". New Balance: $" + var2.getBalance();
+      } else if (var1.equals("withdrew")) {
+         var5 = this.getName() + " withdrew $" + var3 + " from " + this.getAccountType(var2) + "-" + var2.getAccountNumber() + ". New Balance: $" + var2.getBalance();
+      } else if (var1.equals("transferred")) {
+         var5 = this.getName() + " transferred $" + var3 + " from " + this.getAccountType(var2) + "-" + var2.getAccountNumber() + ". New Balance: $" + var2.getBalance();
+      } else if (var1.startsWith("paid to")) {
+         var5 = this.getName() + " " + var1 + " $" + var3 + " from " + this.getAccountType(var2) + "-" + var2.getAccountNumber() + ". New Balance: $" + var2.getBalance();
+      } else {
+         var5 = this.getName() + " " + var1 + " $" + var3 + " from " + this.getAccountType(var2) + "-" + var2.getAccountNumber() + ". New Balance: $" + var2.getBalance();
+      }
+
+      System.out.println(var5);
+      RunBank.logTransaction(var5);
+   }
+}
