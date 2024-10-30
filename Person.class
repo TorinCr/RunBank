@@ -1,0 +1,24 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.HashMap;
+
+class Person {
+   private String name;
+   protected HashMap<Integer, Account> accounts;
+
+   public Person(String var1) {
+      this.name = var1;
+      this.accounts = new HashMap();
+   }
+
+   public void addAccount(Account var1) {
+      this.accounts.put(var1.getAccountNumber(), var1);
+   }
+
+   public Account getAccount(int var1) {
+      return (Account)this.accounts.get(var1);
+   }
+
+   public String getName() {
+      return this.name;
+   }
+}
